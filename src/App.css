@@ -1,0 +1,63 @@
+
+.nav-top-elements{
+    text-decoration: none;
+    color: black;
+}
+
+.btnBoxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.circle{
+    height: 15px;
+    width: 15px;
+    background-color: grey;
+    border-radius: 50%;
+    margin: 0px 0px 30px 0px;
+}
+.promotion-container{
+    display: flex;
+    height: 4vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #019370;
+    gap: 10px;
+}
+.courses-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    width: 325px;
+    background-color: #eee;
+    border-radius: 2rem;
+    padding: 10px 0px 30px 10px;
+    background-image: url("https://res.cloudinary.com/dpzpn3dkw/image/upload/v1729079855/grade_6_10_ilhkeb.webp");
+    background-size: cover;
+    background-position: center;
+}
+.tickling{
+    height: 2rem;
+    width: 2rem;
+}
+.login{
+    height: 3rem;
+    width: 5rem;
+    border: 3px solid #025fca;
+    border-radius: 25px;
+    background-color: white;
+}
+.login:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: black;
+}

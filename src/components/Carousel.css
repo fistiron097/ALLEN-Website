@@ -1,0 +1,64 @@
+.carousel{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 400px;
+    margin-top: 50px;
+
+}
+.slide {
+  height: 100%;       /* Set your desired uniform height */
+  width: 100%;         /* Or fixed width like 500px */
+  border-radius: 0.5rem; /* Optional */
+  box-shadow: 0px 0px 7px #666;
+  margin: 0px 0px 0px 0px;
+}
+
+.slide-hidden{
+    display: none;
+}
+
+
+.arrow{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    filter: drop-shadow(0px,0px,5px, #555);
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.arrow-left{
+    left:1rem;
+    z-index: 2;
+}
+
+.arrow-right{
+    right: 1rem;
+    
+}
+
+.indicators{
+    display: flex;
+    position: absolute;
+    bottom: 0.5rem;
+    gap: 10px;
+}
+.indicator{
+    background-color: white;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px #555;
+    cursor: pointer;
+}
+.indicator-inactive{
+    background-color: grey;
+}
